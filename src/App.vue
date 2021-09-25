@@ -1,7 +1,14 @@
 <template>
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="javascript:void(0)">
+      <img src="./assets/logo.png" alt="Logo" style="width:40px;" class="rounded-pill"> 
+    </a>
+  </div>
+</nav>
   <div id="nav">
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/Trends">Trends</router-link>
   </div>
   <router-view/>
 </template>
